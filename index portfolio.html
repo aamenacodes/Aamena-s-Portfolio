@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[Aamena Patel] — Portfolio</title>
+<meta name="description" content="[ Aamena's Portfolio]">
+
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stylecoder.css">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="nav">
+  <div class="nav-inner">
+    <span class="brand">[Aamena Patel]@Portfolio<span class="cursor-blink">_</span></span>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">menu</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">cd ~/about</a>
+      <a href="#projects">cd ~/projects</a>
+      <a href="#skills">cd ~/skills</a>
+      <a href="#contact">cd ~/contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="section hero">
+    <p class="path">Aamena Patel@Ap ~ $ whoami</p>
+    <h1><span id="typedName">[Aamena Patel]</span><span class="cursor-blink">_</span></h1>
+    <p class="subtitle">[ Ai-assisted Developer]</p>
+    <p class="bio">
+      [AI‑assisted developer passionate about building practical tech solutions, exploring new opportunities,
+       and growing through real‑world projects and internships.]
+    </p>
+    <ul class="tag-list">
+      <li>[x] [BscIT student]</li>
+      <li>[x] [Web Development+AI)]</li>
+      <li>[x] [Curious learning,Adaptbility]</li>
+      <li>[x] Always shipping</li>
+    </ul>
+    <div class="cta-row">
+      <a href="#projects" class="btn btn-primary">./view_projects</a>
+      <a href="#contact" class="btn btn-ghost">./say_hello</a>
+    </div>
+    <p class="status-line">─ session ready · <span id="clock"></span> ─</p>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <p class="path">Aamena Patel@Ap ~ $ cat about.md</p>
+    <h2>about me</h2>
+
+    <div class="about-grid">
+      <dl class="info-table">
+        <div><dt>Name</dt><dd>[ Patel Aamena khanam Aiyub]</dd></div>
+        <div><dt>Education</dt><dd>[ B.sc.Information Technology]</dd></div>
+        <div><dt>Institution</dt><dd>[GLS university]</dd></div>
+        <div><dt>Focus</dt><dd>[ Web Development & AI]</dd></div>
+        <div><dt>Learning</dt><dd>[Web Development,Data Science & AI]</dd></div>
+        <div><dt>Based in</dt><dd>[Ahmedabad,India]</dd></div>
+      </dl>
+
+      <p class="about-text">
+        [I’m an IT student who’s always curious to learn and experiment. Right now I’m diving into web development and Java, often using AI tools to bring my ideas to life.
+         I enjoy solving problems where I can take a concept and turn it into something real and useful]
+      </p>
+    </div>
+
+    <h3 class="subhead"># skills snapshot</h3>
+    <ul class="bar-list">
+      <li><span class="bar-label">[Front-End]</span><span class="bar" data-level="80">█████████░</span><span class="bar-note">[Pretty Good]</span></li>
+      <li><span class="bar-label">[AI]</span><span class="bar" data-level="70">███████░░░</span><span class="bar-note">[Exploring]</span></li>
+      <li><span class="bar-label">[Data Science]</span><span class="bar" data-level="60">██████░░░░</span><span class="bar-note">[Learning/Theory knowledge]</span></li>
+      <li><span class="bar-label">[Database]</span><span class="bar" data-level="80">████████░░</span><span class="bar-note">[Practical knowledge]</span></li>
+      <li><span class="bar-label">[Java]</span><span class="bar" data-level="60">█████░░░░</span><span class="bar-note">[Learning]</span></li>
+    </ul>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <p class="path">Aamena Patel@Ap ~ $ ls ./projects --details</p>
+    <h2>selected projects</h2>
+    <p class="section-intro">[Below is a selection of projects I’ve built, showcasing both technical skills and creative collaboration]</p>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <p class="file-path">~/projects/01-[Restaurant's menu webpage]</p>
+        <h3>[Kundra's Kitchen]</h3>
+        <p>[Created a restaurant website that displays the menu and highlights today’s special dish, with a clean and responsive design.]</p>
+        <ul class="tag-row">
+          <li>[HTML]</li><li>[CSS]</li><li>[Java Script]</li>
+        </ul>
+        <div class="project-links">
+          <a href="[link-to-repo]" target="_blank" rel="noopener">→ source</a>
+          <a href="[link-to-live-demo]" target="_blank" rel="noopener">→ live</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <p class="file-path">~/projects/02-[Attendance System]</p>
+        <h3>[Attendance management system]</h3>
+        <p>[Created a MySQL database to store student attendance records and automatically calculate percentage attendance for each student]</p>
+        <ul class="tag-row">
+          <li>[MySQL]</li>
+        </ul>
+        <div class="project-links">
+          <a href="[link-to-repo]" target="_blank" rel="noopener">→ source</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <p class="file-path">~/projects/03-[Hackathon Prototype]</p>
+        <h3>[VeriShield AI]</h3>
+        <p>[Built a document verification project with AI assistance that checks if uploaded documents are genuine or tampered]</p>
+        <ul class="tag-row">
+          <li>[HTML]</li><li>[CSS]</li><li>[JavaScript(with Ai support)]</li>
+        </ul>
+        <div class="project-links">
+          <a href="[link-to-repo]" target="_blank" rel="noopener">→ source</a>
+          <a href="[link-to-live-demo]" target="_blank" rel="noopener">→ live</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section">
+    <p class="path">Aamena Patel@Ap ~ $ cat skills.json</p>
+    <h2>technical skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill-block">
+        <p class="skill-index">01</p>
+        <h3>[Category — Web Development ]</h3>
+        <p>[I enjoy using HTML, CSS, and JavaScript to bring ideas to life, making websites look good and feel easy to use.]</p>
+        <ul class="tag-row">
+          <li>[HTML]</li><li>[CSS]</li><li>[Java Script]</li><li>[VS Code]</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <p class="skill-index">02</p>
+        <h3>[Category —Database Management ]</h3>
+        <p>[I manage and organize data using MySQL, creating databases and queries to track information like student attendance.]</p>
+        <ul class="tag-row">
+          <li>[MySQL]</li>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <p class="skill-index">03</p>
+        <h3>[Category — Languages]</h3>
+        <p>[ English,Hindi, Gujarati,Urdu(Conversational)]</p>
+        <ul class="tag-row">
+          <li>[English]</li><li>[Hindi]</li><li>[Gujarati]</li<li>[Urdu]</li>>
+        </ul>
+      </div>
+      <div class="skill-block">
+        <p class="skill-index">04</p>
+        <h3>[Category — Leadership]</h3>
+        <p>[I have guided teams in projects and hackathons, coordinating tasks and motivating members]</p>
+        <ul class="tag-row">
+          <li>[Google Meet]</li><li>[Google Docs]</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <p class="path">Aamena Patel@Ap ~ $ ./contact --send</p>
+    <h2>let's connect</h2>
+    <p class="section-intro">[Open to professional connections, collaborations, and internship opportunities in technology .feel free to reach out]</p>
+
+    <div class="contact-grid">
+      <a class="contact-row" href="mailto:aamenap3034@gmail.com">
+        <span class="contact-key">GMAIL</span><span class="contact-val">[aamenap3034@gmail.com]</span>
+      </a>
+      <a class="contact-row" href="https://www.linkedin.com/in/aamena-patel-it" target="_blank" rel="noopener">
+        <span class="contact-key">LINKEDIN</span><span class="contact-val">[https://www.linkedin.com/in/aamena-patel-it]</span>
+      </a>
+      
+      
+
+    <ul class="tag-list">
+      <li>[✓] open_to_work: true</li>
+       <li>[✓] currently_learning: active</li>
+      <li>[✓] response_time: usually within 24h</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Aamena Patel@Ap ~ $ <span class="cursor-blink">_</span> © <span id="year"></span> [Aamena Patel].</p>
+</footer>
+
+<script src="script3.js"></script>
+</body>
+</html>
